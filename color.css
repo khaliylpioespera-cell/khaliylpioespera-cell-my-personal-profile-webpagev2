@@ -1,7 +1,7 @@
 body {
   text-align: center;
   background-color: orange;
-  color: limegreen;
+  color: darkgreen;
 }
 
 .gen-h {
@@ -48,6 +48,11 @@ a {
 
 .contact-hr {
   color: rgb(13, 48, 20);
+}
+
+#thanks-page {
+  background-color: Orange;
+  color: purple;
 }
 
 #thanks-page {
