@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: rgb(112, 112, 233);
+  background-color: grey
   color: green;
 }
 
@@ -10,7 +10,7 @@ body {
 }
 
 hr {
-  color: white;
+  color: yellow;
 }
 
 nav {
@@ -18,7 +18,7 @@ nav {
 }
 
 a {
-  color: lightblue;
+  color: green;
   font-weight: bold;
   text-align: center
 }
@@ -48,11 +48,6 @@ a {
 
 .contact-hr {
   color: rgb(13, 48, 20);
-}
-
-#thanks-page {
-  background-color: Orange;
-  color: purple;
 }
 
 #thanks-page {
