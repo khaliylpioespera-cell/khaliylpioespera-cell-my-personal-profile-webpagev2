@@ -1,7 +1,7 @@
 body {
   text-align: center;
-  background-color: blue;
-  color: yellow;
+  background-color: rgb(112, 112, 233);
+  color: green;
 }
 
 .gen-h {
@@ -10,7 +10,7 @@ body {
 }
 
 hr {
-  color: yellow;
+  color: white;
 }
 
 nav {
@@ -42,12 +42,17 @@ a {
 }
 
 .contact-a {
-  color: lightgreen;
+  color: rgb(0, 255, 0);
   font-weight: bold;
 }
 
 .contact-hr {
-  color: yellow;
+  color: rgb(13, 48, 20);
+}
+
+#thanks-page {
+  background-color: Orange;
+  color: purple;
 }
 
 #thanks-page {
