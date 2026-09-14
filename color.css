@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-color: blue;
+  color: yellow;
+}
+
+.gen-h {
+  text-align: center;
+  font-weight: bold;
+}
+
+hr {
+  color: yellow;
+}
+
+nav {
+  text-align:center;
+}
+
+a {
+  color: lightblue;
+  font-weight: bold;
+  text-align: center
+}
+
+.gen-div {
+  text-align: center;
+}
+
+#contact-page {
+  background-color: lime;
+  color: yellow;
+}
+
+#contact-form {
+  text-align: center;
+}
+
+.contact-h {
+  color: red;
+  text-align: center;
+}
+
+.contact-a {
+  color: lightgreen;
+  font-weight: bold;
+}
+
+.contact-hr {
+  color: yellow;
+}
+
+#thanks-page {
+  background-color: Orange;
+  color: purple;
+}
