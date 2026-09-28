@@ -1,56 +1,54 @@
+/* main code */
 body {
+  background-color: #132c10;
+  color: #faf6f6;
   text-align: center;
-  background-color: white;
-  color: darkgreen;
-}
-
-.gen-h {
-  text-align: center;
-  font-weight: bold;
-}
-
-hr {
-  color: yellow;
-}
-
-nav {
-  text-align:center;
+  font-family: Helvetica, sans-serif;
 }
 
 a {
-  color: green;
+  color: #38347a;
   font-weight: bold;
-  text-align: center
+  font-style: italic;
 }
 
-.gen-div {
-  text-align: center;
-}
-
-#contact-page {
-  background-color: lime;
-  color: yellow;
-}
-
-#contact-form {
-  text-align: center;
-}
-
-.contact-h {
-  color: red;
-  text-align: center;
-}
-
-.contact-a {
-  color: rgb(0, 255, 0);
+h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+  text-transform: capitalize;
 }
 
-.contact-hr {
-  color: rgb(13, 48, 20);
+div {
+  background: linear-gradient(to right, #0b16a5, #6faa74);
 }
 
-#thanks-page {
-  background-color: Orange;
+table {
+  opacity: 1.2;
+}
+/* main code end*/
+
+
+/* sub code */
+#a-index {
+  color: rgb(255, 166, 0);
+}
+
+#a-about {
+  color: rgb(238, 255, 0);
+}
+
+#a-hobbies {
+  color: rgb(11, 89, 109);
+}
+
+#a-favorites {
+  color: rgb(30, 172, 30);
+}
+
+#a-goals {
   color: purple;
 }
+
+#a-contact {
+  color: Indigo;
+}
+/* sub code end */
