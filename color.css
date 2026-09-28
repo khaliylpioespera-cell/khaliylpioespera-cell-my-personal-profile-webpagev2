@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 div {
-  background: linear-gradient(to right, #0b16a5, #6faa74);
+  background: linear-gradient(to right, #121dad, #377e3d);
 }
 
 table {
@@ -47,6 +47,11 @@ table {
 #a-goals {
   color: purple;
 }
+
+#a-contact {
+  color: Indigo;
+}
+/* sub code end */
 
 #a-contact {
   color: Indigo;
