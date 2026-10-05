@@ -381,3 +381,65 @@ nav a:hover {
     font-size: 17px;
     line-height: 1.6;
 }
+
+.contact-box {
+    width: 80%;
+    margin: 25px auto;
+    padding: 30px;
+    background: linear-gradient(to right, lime, white);
+    color: rgb(6, 51, 6);
+    border: 3px solid green;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.95;
+}
+
+.contact-box h2 {
+    color: purple;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact-box form {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-box label {
+    font-weight: bold;
+    color: green;
+}
+
+.contact-box input[type="text"],
+.contact-box input[type="email"],
+.contact-box select,
+.contact-box textarea {
+    padding: 8px;
+    margin: 5px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.contact-box textarea {
+    max-width: 90%;
+}
+
+.contact-box input[type="submit"],
+.contact-box input[type="reset"] {
+    background-color: orange;
+    color: purple;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-box input[type="submit"]:hover,
+.contact-box input[type="reset"]:hover {
+    background-color: lime;
+}
