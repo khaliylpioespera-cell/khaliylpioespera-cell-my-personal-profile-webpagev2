@@ -1,59 +1,103 @@
-/* main code */
 body {
-  background-color: #132c10;
-  color: #faf6f6;
-  text-align: center;
-  font-family: Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: rgb(6, 51, 6);
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.gen-h {
+    background-color: green;
+    color: yellow;
+
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: bold;
+
+    padding: 20px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+nav {
+    background-color: lime;
+    text-align: center;
+
+    padding: 12px;
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+}
+
+nav a {
+    color: rgb(6, 51, 6);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+nav a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+.gen-div {
+    background: linear-gradient(to right, white, lime);
+    text-align: center;
+
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+h2 {
+    color: green;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
 }
 
 a {
-  color: #38347a;
-  font-weight: bold;
-  font-style: italic;
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-div {
-  background: linear-gradient(to right, #121dad, #377e3d);
+a:hover {
+    text-decoration: underline;
 }
 
 table {
-  opacity: 1.2;
-}
-/* main code end*/
-
-
-/* sub code */
-#a-index {
-  color: rgb(255, 166, 0);
+    margin: 20px auto;
+    background-color: rgb(33, 98, 114);
+    color: rgb(13, 136, 43);
 }
 
-#a-about {
-  color: rgb(238, 255, 0);
+th {
+    background-color: rgb(18, 37, 18);
+    color: rgb(248, 246, 248);
+    padding: 10px;
 }
 
-#a-hobbies {
-  color: rgb(11, 89, 109);
+td {
+    padding: 10px;
 }
 
-#a-favorites {
-  color: rgb(30, 172, 30);
+audio {
+    margin: 15px;
 }
 
-#a-goals {
-  color: purple;
+hr {
+    border: 1px solid yellow;
 }
-
-#a-contact {
-  color: Indigo;
-}
-/* sub code end */
-
-#a-contact {
-  color: Indigo;
-}
-/* sub code end */
