@@ -251,3 +251,76 @@ nav a:hover {
 
     color: green;
 }
+
+.about-box {
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+
+    background: linear-gradient(to right, lime, white);
+
+    color: rgb(6, 51, 6);
+
+    border: 3px solid green;
+    border-radius: 10px;
+
+    text-align: center;
+
+    opacity: 0.95;
+}
+
+
+/* About Headings */
+
+.about-box h2 {
+    color: purple;
+
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/* About Paragraphs */
+
+.about-box p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* Personal Info Table */
+
+.about-box table {
+    margin: auto;
+    border-collapse: collapse;
+
+    background-color: lime;
+    color: purple;
+
+    font-size: 15px;
+}
+
+.about-box th {
+    background-color: orange;
+    color: purple;
+
+    padding: 12px;
+
+    font-weight: bold;
+}
+
+.about-box td {
+    padding: 12px;
+}
+
+
+/* Google Map */
+
+.about-box iframe {
+    max-width: 100%;
+    border: 3px solid green;
+}
