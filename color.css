@@ -74,3 +74,180 @@ nav a:hover {
 
     opacity: 0.95;
 }
+
+.favorite-box {
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+
+    background: linear-gradient(to right, lime, white);
+
+    color: rgb(6, 51, 6);
+
+    border: 3px solid green;
+    border-radius: 10px;
+
+    text-align: center;
+
+    opacity: 0.95;
+}
+
+/* Favorite headings */
+
+.favorite-box h2 {
+    color: purple;
+
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Lists */
+
+.favorite-box ol {
+    display: inline-block;
+    text-align: left;
+
+    line-height: 1.8;
+}
+
+/* Favorite table */
+
+.favorite-box table {
+    margin: auto;
+    border-collapse: collapse;
+
+    background-color: lime;
+    color: purple;
+}
+
+.favorite-box th {
+    background-color: orange;
+    color: purple;
+
+    padding: 12px;
+
+    font-weight: bold;
+}
+
+.favorite-box td {
+    padding: 12px;
+}
+
+/* Audio */
+
+.favorite-box audio {
+    margin: 10px;
+}
+
+/* Links */
+
+.favorite-box a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.favorite-box a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+.goal-box {
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+
+    background: linear-gradient(to right, lime, white);
+
+    color: rgb(6, 51, 6);
+
+    border: 3px solid green;
+    border-radius: 10px;
+
+    text-align: center;
+
+    opacity: 0.95;
+}
+
+
+/* Goal Headings */
+
+.goal-box h2 {
+    color: purple;
+
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/* Lists */
+
+.goal-box ol {
+    display: inline-block;
+    text-align: left;
+
+    line-height: 1.8;
+}
+
+
+/* Goal Table */
+
+.goal-box table {
+    margin: auto;
+    border-collapse: collapse;
+
+    background-color: lime;
+    color: purple;
+}
+
+.goal-box th {
+    background-color: orange;
+    color: purple;
+
+    padding: 12px;
+
+    font-weight: bold;
+}
+
+.goal-box td {
+    padding: 12px;
+}
+
+
+/* Dream Career */
+
+.big-goal {
+    font-size: 20px;
+    font-weight: bold;
+
+    color: green;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.backup-goal {
+    font-size: 18px;
+    font-weight: bold;
+
+    color: purple;
+}
+
+
+/* Motto */
+
+.motto {
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+
+    color: green;
+}
