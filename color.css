@@ -324,3 +324,60 @@ nav a:hover {
     max-width: 100%;
     border: 3px solid green;
 }
+
+.hobby-box {
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+    background: linear-gradient(to right, lime, white);
+    color: rgb(6, 51, 6);
+    border: 3px solid green;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.95;
+}
+
+.hobby-box h2 {
+    color: purple;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hobby-list {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+.hobby-box table {
+    margin: auto;
+    border-collapse: collapse;
+    background-color: lime;
+    color: purple;
+    font-size: 15px;
+}
+
+.hobby-box th {
+    background-color: orange;
+    color: purple;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.hobby-box td {
+    padding: 12px;
+}
+
+.hobby-box video {
+    max-width: 100%;
+    border: 3px solid green;
+}
+
+.hobby-box p {
+    font-size: 17px;
+    line-height: 1.6;
+}
